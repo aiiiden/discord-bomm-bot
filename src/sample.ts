@@ -1,6 +1,6 @@
-import { MessageRecord } from "./config";
+import { ChatRecord } from "./lib";
 
-export const samples: MessageRecord[] = [
+export const samples: ChatRecord[] = [
   { author: "User1", message: "GM", date: "2025-05-09T09:00:00Z" },
   { author: "User2", message: "GM", date: "2025-05-09T09:00:05Z" },
   { author: "User1", message: "How's your cat?", date: "2025-05-09T09:00:10Z" },
